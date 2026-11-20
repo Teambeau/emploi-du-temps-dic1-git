@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emploi du temps DIC1-GIT</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container-fluid">
+        <header id="header">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <div class="d-flex align-items-center">
+                    <div class="logo-ept">
+                        <img src="logo-ept.jpeg" alt="Logo EPT">
+                    </div>  
+                    <div class="infos">
+                        <p class="nom-ecole">
+                            ECOLE POLYTECHNIQUE DE THIES
+                            <span>EMPLOI DU TEMPS</span>
+                        </p>
+                        <h1> Genie Informatique et Telecommunications</h1>
+                        <p class="semaine">
+                            Semaine du 16 - 21 novembre 2026
+                        </p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                <div class="info-eleves">
+                    <div class="details">
+                         <div class="info-row">
+                    <span>ÉTUDIANT</span>
+                    <strong>AISSATOU KANE THIMBO</strong>
+                </div>
+
+                         <div class="info-row">
+                           <span>NIVEAU</span>
+                           <strong>DIC1</strong>
+                         </div>
+
+                         <div class="info-row">
+                           <span>ANNÉE</span>
+                           <strong>2026-2027</strong>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section id="schedule"></section>
+          <div class="calendar-container">
+            <div class="calendar-header">
+
+               <div class="empty-cell"></div>
+
+               <div>LUNDI</div>
+               <div>MARDI</div>
+               <div>MERCREDI</div>
+               <div>JEUDI</div>
+               <div>VENDREDI</div>
+               <div>SAMEDI</div>
+
+            </div>
+           <div class="calendar-grid">
+                <div class="hours">
+                <div>08:00</div>
+                <div>09:00</div>
+                <div>10:00</div>
+                <div>11:00</div>
+                <div>12:00</div>
+                <div>13:00</div>
+                <div>14:00</div>
+                <div>15:00</div>
+                <div>16:00</div>
+                <div>17:00</div>
+                <div>18:00</div>
+            </div>
+              <div class="day-column">
+                <div class="course-card cours" style="top: 0%; height: 33.33%;">
+                     <strong>Techniques de communication en anglais</strong>
+                     <p>Amadou Gallo FALL</p>
+                     <small>Salle B203</small>
+                     
+                </div>
+                <div class="course-card cours" style="top: 58.33%; height: 33.33%;">
+                     <strong>ACSI 2(UML & Design Patterns)</strong>
+                     <p>Abdoulaye GUISSE</p>
+                     <small>Salle B203</small>
+                </div>
+              </div>
+              <div class="day-column">
+                <div class="course-card cours" style="top: 0%; height: 33.33%;">
+                     <strong>Recherche operationnelle</strong>
+                     <p>Ahmed Mouhamadou WADE</p>
+                     <small>Salle B203</small>
+                </div>
+                <div class="course-card cours" style="top: 58.33%; height: 33.33%;">
+                     <strong>Techniques de communication en francais</strong>
+                     <p>Ousmane SANOKO</p>
+                     <small>Salle B203</small>
+              </div>
+              </div>
+              <div class="day-column">
+                <div class="course-card cours" style="top: 0%; height: 33.33%;">
+                     <strong>Fondamentaux BD(Bases+
+                        Programmation SQL,Admin, Sécurité)</strong>
+                     <p>Abdoul Aziz CISS</p>
+                     <small>Salle B203</small>
+                </div>
+                <div class="course-card cours TPE" style="top: 58.33%; height: 33.33%;">
+                     <strong>TPE</strong>
+              </div>
+              </div>
+              <div class="day-column">
+                <div class="course-card cours TPE" style="top: 0%; height: 33.33%;">
+                     <strong >TPE (séance en salle)</strong>
+                    
+                </div>
+                <div class="course-card cours TPE" style="top: 58.33%; height: 33.33%;">
+                     <strong >TPE(seance en salle)</strong>
+              </div>
+              </div>
+              <div class="day-column">
+                <div class="course-card cours" style="top: 0%; height: 33.33%;">
+                     <strong>Traitement du Signal</strong>
+                     <p>Ndeye Fatou NGOM</p>
+                     <small>Salle B203</small>
+                </div>
+                <div class="course-card cours" style="top: 58.33%; height: 33.33%;">
+                     <strong>UX design(+integration)</strong>
+                     <p>Samba SIDIBE</p>
+                     <small>Salle B203</small>
+              </div>
+              </div>
+              <div class="day-column">
+                <div class="course-card cours" style="top: 0%; height: 33.33%;">
+                     <strong>PPP 1</strong>
+                     <p>Omar NIANG</p>
+                     <small>Salle B203</small>
+                </div>
+              </div>
+            </div>
+              
+
+        </div>
+        </section>
+        <section id="legend">
+           <div class="legend-objet">
+              <span class="legend-couleur tpe-couleur"></span>
+              <span>Autres</span>
+           </div>
+           <div class="legend-objet">
+                <span class="legend-couleur cours-couleur"></span>
+                <span>Cours</span>
+           </div>
+           <div class="legend-objet">
+                <span class="legend-couleur evaluation-couleur"></span>
+                <span>Evaluation</span>
+           </div>
+        </section>
+        <footer id="footer">
+            <div class="footer-left">
+                <span>11 seances. 44 heures.</span>
+                <span>Dernière mise à jour: 15 novembre 2026</span>
+            </div>
+            <div class="footer-right">
+                <span> Emploi du temps du 15 au 21 novembre 2026</span>
+                <span>© 2026 EPT. Tous droits réservés.</span>
+                <span>Page 1/1</span>
+            </div>
+        </footer>
+    </main>
+
+
+
+</body>
+</html>
